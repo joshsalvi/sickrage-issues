@@ -4,7 +4,7 @@ SickRage Bug/Issue Tracker
 This repo is dedicated to tracking bugs and issue reports.
 
 ### SUBMITTING A BUG/ISSUE TICKET
-(DO NOT POST ANYTHING THAT CONTAINS YOUR LOGIN INFORMATION OR API KEY)
+(DO NOT POST ANYTHING THAT CONTAINS YOUR LOGIN INFORMATION OR API KEY)<br />
 Please include the following when opening a new ticket:
  - Branch
  - Commit hash
