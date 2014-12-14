@@ -15,6 +15,6 @@ Please include the following when opening a new ticket:
  - Link to a copy/paste of your logfile with clear debug info of the error on [PASTBIN](http://www.pastebin.com)
 
 ### ENABLING DETAILED DEBUGGING FOR LOGS
-#1. Shutdown SickRage
-#2. Edit config.ini and set debug to 1 then save config
-#3. Start SickRage and wait for error to occure again
+1. Shutdown SickRage
+2. Edit config.ini and set debug to 1 then save config
+3. Start SickRage and wait for error to occure again
