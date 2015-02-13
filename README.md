@@ -1,3 +1,9 @@
+**BEFORE OPEN AN ISSUE**
+===============
+Search the error in the search box.
+
+If you don't find it please follow the guidelines below, otherwise issue will be closed.
+
 SickRage Bug/Issue Tracker
 ===============
 
