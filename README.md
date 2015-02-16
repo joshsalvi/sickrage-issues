@@ -4,6 +4,17 @@ Search the error in the search box.
 
 If you don't find it please follow the guidelines below, otherwise issue will be closed.
 
+IF YOU HAVE UPDATE ERRORS:
+
+Stop SickRage, SSH and enter SickRage folder
+```
+git remote add upstream https://github.com/SiCKRAGETV/SickRage.git
+git fetch upstream
+git checkout master / OR git checkout develop
+git reset --hard upstream/develop
+git pull
+```
+
 SickRage Bug/Issue Tracker
 ===============
 
