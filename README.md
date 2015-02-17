@@ -6,7 +6,7 @@ If you don't find it please follow the guidelines below, otherwise issue will be
 
 IF YOU HAVE UPDATE ERRORS:
 
-Stop SickRage, SSH and enter SickRage folder
+Stop SickRage, SSH(Linux)/CMD(Windows) and enter SickRage folder
 ```
 git remote add upstream https://github.com/SiCKRAGETV/SickRage.git
 git fetch upstream
@@ -29,7 +29,7 @@ Please include the following when opening a new ticket:
  - What you did
  - What happened
  - What you expected
- - Link to a copy/paste of your logfile with clear debug info of the error on [PASTBIN](http://www.pastebin.com)
+ - Link to a copy/paste of your logfile with clear debug info of the error on [PASTEBIN](http://www.pastebin.com)
 
 ### ENABLING DETAILED DEBUGGING FOR LOGS
 1. Shutdown SickRage
