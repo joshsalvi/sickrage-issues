@@ -36,6 +36,8 @@ Please include the following when opening a new ticket:
 2. Edit config.ini and set debug to 1 then save config
 3. Start SickRage and wait for error to occure again
 
+Note: Synology users can use WinSCP to gain access/browse to the root where the Sickrage log is located. /volume1/@appstore/sickbeard-custom/var/Logs/sickrage.log
+
 ## FAQ
 
 https://github.com/SiCKRAGETV/SickRage/wiki/Frequently-Asked-Questions
