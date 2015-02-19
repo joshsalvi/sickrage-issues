@@ -4,7 +4,13 @@ Search the error in the search box.
 
 If you don't find it please follow the guidelines below, otherwise issue will be closed.
 
-IF YOU HAVE UPDATE ERRORS:
+**IF YOU HAVE UPDATE ERRORS:**
+
+Go to SickRage Settings > General > Advanced > Github and enable this setting:
+
+- [X] Git reset (removes untracked files and performs a hard reset on git branch automatically to help resolve update issues)
+
+**OR**
 
 Stop SickRage, SSH(Linux)/CMD(Windows) and enter SickRage folder
 ```
