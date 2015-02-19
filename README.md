@@ -35,3 +35,11 @@ Please include the following when opening a new ticket:
 1. Shutdown SickRage
 2. Edit config.ini and set debug to 1 then save config
 3. Start SickRage and wait for error to occure again
+
+## FAQ
+
+https://github.com/SiCKRAGETV/SickRage/wiki/Frequently-Asked-Questions
+
+## Wiki
+
+https://github.com/SiCKRAGETV/SickRage/wiki
