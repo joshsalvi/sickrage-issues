@@ -1,10 +1,10 @@
-**BEFORE OPEN AN ISSUE**
+**BEFORE YOU OPEN AN ISSUE**
 ===============
-Search the error in the search box.
+Search for the error in the search box.
 
-If you don't find it please follow the guidelines below, otherwise issue will be closed.
+If you don't find it please follow the guidelines below, otherwise the issue will be closed.
 
-**IF YOU HAVE UPDATE ERRORS:**
+**IF YOU HAVE ANY UPDATE ERRORS:**
 
 Go to SickRage Settings > General > Advanced > Github and enable this setting:
 
