@@ -35,7 +35,7 @@ Please include the following when opening a new ticket:
  - What you did
  - What happened
  - What you expected
- - Link to a copy/paste of your logfile with clear debug info of the error on [PASTEBIN](http://www.pastebin.com)
+ - Link to a copy/paste of your logfile with clear debug info of the error on [GIST](http://gist.github.com)
 
 ### ENABLING DETAILED DEBUGGING FOR LOGS
 1. Shutdown SickRage
