@@ -17,6 +17,7 @@ Stop SickRage, SSH(Linux)/CMD(Windows) and enter SickRage folder
 git remote add upstream https://github.com/SiCKRAGETV/SickRage.git
 git fetch upstream
 git checkout master
+git branch -u upstream/master
 git reset --hard upstream/master
 git pull
 ```
