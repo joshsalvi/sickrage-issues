@@ -39,7 +39,9 @@ Please include the following when opening a new ticket:
  - Link to a copy/paste of your logfile with clear debug info of the error on [GIST](http://gist.github.com)
 
 ### ENABLING DETAILED DEBUGGING FOR LOGS
-1. Open SR interface, go to: General Settings menu > Advanced Settings > Enable DEBUG
+1. Open SR interface
+2. Menu General Settings > Advanced Settings
+3. Enable 'Enable debug'
 
 Note: Synology users can use WinSCP to gain access/browse to the root where the Sickrage log is located. /volume1/@appstore/sickbeard-custom/var/Logs/sickrage.log
 
