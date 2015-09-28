@@ -1,33 +1,28 @@
 **BEFORE YOU OPEN AN ISSUE**
 ===============
-Search for the error in the search box.
+## Feature Requests are not allowed on the issue tracker. We now use [FeatHub](http://feathub.com/SiCKRAGETV/SickRage) for issues
+[![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](http://feathub.com/SiCKRAGETV/SickRage)
 
+Search for the error in the search box. Re-use the existing issue if it already exists, even if it is closed.
 If you don't find it please follow the guidelines below, otherwise the issue will be closed.
 
-**IF YOU HAVE ANY UPDATE ERRORS:**
-
-Go to SickRage Settings > General > Advanced > Github and enable this setting:
-
-- [X] Git reset (removes untracked files and performs a hard reset on git branch automatically to help resolve update issues)
-
-**OR**
-
+**Update problems? Try this first:**
 Stop SickRage, SSH(Linux)/CMD(Windows) and enter SickRage folder
 ```
-git remote add upstream https://github.com/SiCKRAGETV/SickRage.git
-git fetch upstream
+git remote set-url origin https://github.com/SiCKRAGETV/SickRage.git
+git fetch origin
 git checkout master
-git branch -u upstream/master
-git reset --hard upstream/master
+git branch -u origin/master
+git reset --hard origin/master
 git pull
 ```
 
-SickRage Bug/Issue Tracker
+## SickRage Bug/Issue Tracker
 ===============
 
-This repo is dedicated to tracking bugs and issue reports.
+This repo is dedicated to tracking bugs and issue reports only.
 
-### SUBMITTING A BUG/ISSUE TICKET
+## SUBMITTING A BUG/ISSUE TICKET
 (DO NOT POST ANYTHING THAT CONTAINS YOUR LOGIN INFORMATION OR API KEY)<br />
 Please include the following when opening a new ticket:
  - Branch
@@ -38,7 +33,7 @@ Please include the following when opening a new ticket:
  - What you expected
  - Link to a copy/paste of your logfile with clear debug info of the error on [GIST](http://gist.github.com)
 
-### ENABLING DETAILED DEBUGGING FOR LOGS
+## ENABLING DETAILED DEBUGGING FOR LOGS
 1. Open SR interface
 2. Menu General Settings > Advanced Settings
 3. Enable 'Enable debug'
