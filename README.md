@@ -1,12 +1,14 @@
 **BEFORE YOU OPEN AN ISSUE**
 ===============
-## Feature Requests are not allowed on the issue tracker. We now use [FeatHub](http://feathub.com/SiCKRAGETV/SickRage) for issues
+
+Feature Requests are not allowed on the issue tracker. We now use [FeatHub](http://feathub.com/SiCKRAGETV/SickRage) for issues
 [![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](http://feathub.com/SiCKRAGETV/SickRage)
 
 Search for the error in the search box. Re-use the existing issue if it already exists, even if it is closed.
 If you don't find it please follow the guidelines below, otherwise the issue will be closed.
 
 **Update problems? Try this first:**
+
 Stop SickRage, SSH(Linux)/CMD(Windows) and enter SickRage folder
 ```
 git remote set-url origin https://github.com/SiCKRAGETV/SickRage.git
