@@ -1,50 +1,39 @@
-**BEFORE YOU OPEN AN ISSUE**
-===============
+#### BEFORE YOU OPEN AN ISSUE
+For FEATURE REQUESTS use [Feathub](http://feathub.com/SiCKRAGE/SickRage)<br/>
+For BASIC QUESTIONS go to the [Forum](https://sickrage.tv/forums/) or [IRC](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage)
 
-Feature Requests are not allowed on the issue tracker. We now use [FeatHub](http://feathub.com/SickRage/SickRage) for features [![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](http://feathub.com/SickRage/SickRage)
+DO NOT POST ANYTHING THAT CONTAINS YOUR LOGIN INFORMATION OR API KEY<br />
 
-Search for the error in the search box. Re-use the existing issue if it already exists, even if it is closed.
-If you don't find it please follow the guidelines below, otherwise the issue will be closed.
-
-**Update problems? Try this first:**
-
-Stop SickRage, SSH(Linux)/CMD(Windows) and enter SickRage folder
-```
-git remote set-url origin https://github.com/SickRage/SickRage.git
-git fetch origin
-git checkout master
-git branch -u origin/master
-git reset --hard origin/master
-git pull
-```
-
-## SickRage Bug/Issue Tracker
-===============
-
-This repo is dedicated to tracking bugs and issue reports only.
-
-## SUBMITTING A BUG/ISSUE TICKET
-(DO NOT POST ANYTHING THAT CONTAINS YOUR LOGIN INFORMATION OR API KEY)<br />
-Please include the following when opening a new ticket:
+Please include the following when opening a ticket :
  - Branch
  - Commit hash
  - Your operating system and python version
  - What you did
  - What happened
  - What you expected
- - Link to a copy/paste of your logfile with clear debug info of the error on [GIST](http://gist.github.com)
+ - How can we reproduce your issue
+ - Include a link with your [log file](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ's-and-Fixes#enable-debug-for-logs). (Not just a few lines!) And that has the error. Use [GIST](http://gist.github.com) or [Pastebin](http://pastebin.com/)
 
-## ENABLING DETAILED DEBUGGING FOR LOGS
-1. Open SR interface
-2. Menu General Settings > Advanced Settings
-3. Enable 'Enable debug'
+#### Many issues can simply be solved by:
 
-Note: Synology users can use WinSCP to gain access/browse to the root where the Sickrage log is located. /volume1/@appstore/sickbeard-custom/var/Logs/sickrage.log
+- Making sure you update to the latest version. 
+- Have you tried turning your device off and on again?
+- Using the **search** function to see if this issue has already been reported/solved.
+- Do a [GIT reset](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ's-and-Fixes#update-problems-try-this)
+- Checking the [ [Wiki] ](https://github.com/SiCKRAGE/sickrage-issues/wiki) for 
+[ [Guides] ](https://github.com/SiCKRAGE/sickrage-issues/wiki/Installation-&-Configuration-Guides)
+[ [FAQ'S] ](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ%27s-and-Fixes) 
+[ [Main settings] ](https://github.com/SiCKRAGE/sickrage-issues/wiki/Settings-explained) 
+[ [Show settings] ](https://github.com/SiCKRAGE/sickrage-issues/wiki/Show-settings-explained) 
+[ [Remaining settings] ](https://github.com/SiCKRAGE/sickrage-issues/wiki/Remaining-settings-explained) 
+- Shutting down SickRage and removing the `cache/mako` & `cache/sessions` folders.
+- If SickRage doesnt find any episodes you probably need to : 
+ - add a [Scene Exception](https://github.com/SiCKRAGE/sickrage-issues/wiki/Scene-exceptions-and-numbering) 
+ - Set the [Default Episode Status](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ%27s-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) to `WANTED`
+ - Make sure you understand how [quality detection](https://github.com/SiCKRAGE/sickrage-issues/wiki/Quality-Settings#quality-detectiondetermination) works during searches. 
+ - Shutdown SickRage and remove the `cache.db` file
+- If you use a QNAP and have SSL errors try this [package](http://apps.qnap.community/11-community/17-qsickrage).
+- If you have a `'ascii' codec can't encode character` error, than set your Locale to [UTF-8](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ%27s-and-Fixes#i-have-problems-with-special-characters-%C3%A9-etc-what-can-i-do)
 
-## FAQ
 
-https://github.com/SickRage/SickRage/wiki/Frequently-Asked-Questions
 
-## Wiki
-
-https://github.com/SickRage/SickRage/wiki
