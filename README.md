@@ -1,5 +1,5 @@
 #### BEFORE YOU OPEN AN ISSUE
-For FEATURE REQUESTS use [Feathub](http://feathub.com/SiCKRAGE/SickRage)<br/>
+For FEATURE REQUESTS use [Feathub](http://feathub.com/SickRage/SickRage)<br/>
 For BASIC QUESTIONS go to the Forum or [IRC](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues)
 
 DO NOT POST ANYTHING THAT CONTAINS YOUR LOGIN INFORMATION OR API KEY<br />
