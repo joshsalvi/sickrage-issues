@@ -1,6 +1,6 @@
 #### BEFORE YOU OPEN AN ISSUE
 For FEATURE REQUESTS use [Feathub](http://feathub.com/SickRage/SickRage)<br/>
-For BASIC QUESTIONS go to the Forum or [IRC](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues)
+For BASIC QUESTIONS try our [IRC channel](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues)
 
 DO NOT POST ANYTHING THAT CONTAINS YOUR LOGIN INFORMATION OR API KEY<br />
 
@@ -12,7 +12,7 @@ Please include the following when opening a ticket :
  - What happened
  - What you expected
  - How can we reproduce your issue
- - Include a link with your [log file](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ's-and-Fixes#enable-debug-for-logs). (Not just a few lines!) And that has the error. Use [GIST](http://gist.github.com) or [Pastebin](http://pastebin.com/)
+ - Include a link with your **FULL**(Not just a few lines!) [log file](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ's-and-Fixes#enable-debug-for-logs) that has the error. Please use [GIST](http://gist.github.com) or [Pastebin](http://pastebin.com/)
 
 #### Many issues can simply be solved by:
 
@@ -34,6 +34,3 @@ Please include the following when opening a ticket :
  - Shutdown SickRage and remove the `cache.db` file
 - If you use a QNAP and have SSL errors try this [package](http://apps.qnap.community/11-community/17-qsickrage).
 - If you have a `'ascii' codec can't encode character` error, than set your Locale to [UTF-8](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ%27s-and-Fixes#i-have-problems-with-special-characters-%C3%A9-etc-what-can-i-do)
-
-
-
