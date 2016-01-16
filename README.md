@@ -2,6 +2,8 @@
 For FEATURE REQUESTS use [Feathub](http://feathub.com/SickRage/SickRage)<br/>
 For BASIC QUESTIONS try our [IRC channel](https://kiwiirc.com/client/irc.freenode.net/?theme=basic#sickrage-issues)
 
+[How to switch from the old to the new Repo](https://github.com/SickRage/sickrage-issues/wiki/FAQ's-and-Fixes#how-to-switch-to-the-new-repo)
+
 DO NOT POST ANYTHING THAT CONTAINS YOUR LOGIN INFORMATION OR API KEY<br />
 
 Please include the following when opening a ticket :
@@ -26,11 +28,9 @@ Please include the following when opening a ticket :
 [ [Main settings] ](https://github.com/SiCKRAGE/sickrage-issues/wiki/Settings-explained) 
 [ [Show settings] ](https://github.com/SiCKRAGE/sickrage-issues/wiki/Show-settings-explained) 
 [ [Remaining settings] ](https://github.com/SiCKRAGE/sickrage-issues/wiki/Remaining-settings-explained) 
-- Shutting down SickRage and removing the `cache/mako` & `cache/sessions` folders.
 - If SickRage doesnt find any episodes you probably need to : 
- - add a [Scene Exception](https://github.com/SiCKRAGE/sickrage-issues/wiki/Scene-exceptions-and-numbering) 
- - Set the [Default Episode Status](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ%27s-and-Fixes#newly-aired-shows-are-not-downloading-and-set-to-skippedignored) to `WANTED`
+ - Add a [Scene Exception](https://github.com/SiCKRAGE/sickrage-issues/wiki/Scene-exceptions-and-numbering) 
  - Make sure you understand how [quality detection](https://github.com/SiCKRAGE/sickrage-issues/wiki/Quality-Settings#quality-detectiondetermination) works during searches. 
  - Shutdown SickRage and remove the `cache.db` file
-- If you use a QNAP and have SSL errors try this [package](http://apps.qnap.community/11-community/17-qsickrage).
+- If you use a QNAP and have SSL errors try this [package](https://www.dropbox.com/s/j1svazqdi9ieq82/SickBeard-TVRage_151227.qpkg) & [info](http://forum.qnap.com/viewtopic.php?f=223&t=118366).
 - If you have a `'ascii' codec can't encode character` error, than set your Locale to [UTF-8](https://github.com/SiCKRAGE/sickrage-issues/wiki/FAQ%27s-and-Fixes#i-have-problems-with-special-characters-%C3%A9-etc-what-can-i-do)
